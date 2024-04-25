@@ -44,17 +44,11 @@
         .skills-list li {
             margin-bottom: 5px;
         }
-        .glitter {
-            background-image: url('https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif');
-            background-size: cover;
-            width: 100%;
-            height: 100vh;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: -1;
-            opacity: 0.5;
-            pointer-events: none;
+        .cat-image {
+            width: 200px;
+            height: auto;
+            margin: 20px auto;
+            display: block;
         }
         .contact-info {
             text-align: center;
@@ -69,7 +63,6 @@
     </style>
 </head>
 <body>
-    <div class="glitter"></div>
     <header>
         <h1>Welcome to Ireland's Cat-tastic Data Science Page!</h1>
     </header>
@@ -87,6 +80,7 @@
             </ul>
         </div>
         <p>Here, you'll find all things cute, pink, and cat-themed while I delve into the world of data science!</p>
+        <img class="cat-image" src="https://placekitten.com/300/200" alt="Cute Cat">
         <div class="contact-info">
             <a href="mailto:your.email@example.com">Email</a>
             <a href="https://github.com/yourgithubusername">GitHub</a>
